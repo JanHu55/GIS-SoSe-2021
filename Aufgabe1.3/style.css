@@ -4,6 +4,25 @@ body {
     background-image: url(images/bg.png);
 }
 
+.sites {
+    background-color:rgb(70, 70, 70);
+    color: white;
+    text-transform: uppercase;
+    position: fixed;
+    top: 0;
+}
+.seitenLink:hover{
+    color: darkorange;
+}
+#aktiveSeite{
+    color: red;
+}
+
+.seitenLink{
+    text-decoration: none;
+    color: floralwhite;
+}
+
 h1 {
     font-size: 40px;
 }
@@ -11,7 +30,9 @@ h1 {
 h2{
     font-size: 28px;
 }
-
+#oben{
+    margin-top: 50px;
+}
 #portrait {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
     width: 60%;
