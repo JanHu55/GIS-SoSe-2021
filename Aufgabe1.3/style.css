@@ -8,19 +8,34 @@ body {
     background-color:rgb(70, 70, 70);
     color: white;
     text-transform: uppercase;
-    position: fixed;
+    position: fixed; right: 150px;
+    padding: 5px;
     top: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 12pt;
+    font-weight: bold;
 }
 .seitenLink:hover{
     color: darkorange;
 }
 #aktiveSeite{
-    color: red;
+    color: rgb(253, 47, 47);
+    text-decoration: none;
 }
 
 .seitenLink{
     text-decoration: none;
     color: floralwhite;
+}
+.icon{
+    width: 100px;
+    float: left;
+    padding: 20px;
+    text-decoration: none;
+}
+.icon:hover{
+    background-color:lightgray;
 }
 
 h1 {
@@ -39,11 +54,15 @@ h2{
 }
 
 #logoHFU {
-    width: 60%;
+    width: 40%;
 }
 
 #music {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+#formulare{
+    border: 2px;
 }
 
 .video {
@@ -58,5 +77,8 @@ h2{
 
 .link {
     text-decoration: none;
-    color: blue;
+    color: darkorange;
+}
+footer{
+    padding-top: 80px;
 }
