@@ -1,0 +1,78 @@
+
+body {
+    font: normal 16px Arial, Helvetica, sans-serif;
+    background-image: url(images/bg.png);
+}
+.sites {
+    background-color:rgb(70, 70, 70);
+    color: white;
+    text-transform: uppercase;
+    position: fixed; right: 150px;
+    padding: 5px;
+    top: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 12pt;
+    font-weight: bold;
+}
+.seitenLink:hover{
+    color: darkorange;
+}
+#aktiveSeite{
+    color: rgb(253, 47, 47);
+    text-decoration: none;
+}
+.seitenLink{
+    text-decoration: none;
+    color: floralwhite;
+}
+.icon{
+    width: 100px;
+    float: left;
+    padding: 20px;
+    text-decoration: none;
+}
+.icon:hover{
+    opacity: .5;
+}
+h1 {
+    font-size: 40px;
+}
+h2{
+    font-size: 28px;
+}
+#oben{
+    margin-top: 50px;
+}
+#portrait {
+    width: 60%;
+}
+#logoHFU {
+    width: 40%;
+}
+.formular{
+    margin-bottom: 8px;
+    background-color: darkgray;
+    color: white;
+}
+.shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+.video {
+    width: 60%;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+.absatz{
+    padding-bottom: 10px;
+}
+.link {
+    text-decoration: none;
+    color: darkorange;
+}
+footer{
+    padding-top: 80px;
+}

@@ -45,20 +45,18 @@ h2{
     margin-top: 50px;
 }
 #portrait {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
     width: 60%;
 }
 #logoHFU {
     width: 40%;
 }
-#music {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
-}
-#formulare{
-    border: 2px;
-}
 .formular{
     margin-bottom: 8px;
+    background-color: darkgray;
+    color: white;
+}
+.shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 .video {
     width: 60%;
@@ -67,6 +65,9 @@ h2{
     margin-left: auto;
     margin-right: auto;
     width: 800px;
+}
+.absatz{
+    padding-bottom: 10px;
 }
 .link {
     text-decoration: none;
