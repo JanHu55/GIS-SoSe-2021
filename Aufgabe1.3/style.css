@@ -3,7 +3,6 @@ body {
     font: normal 16px Arial, Helvetica, sans-serif;
     background-image: url(images/bg.png);
 }
-
 .sites {
     background-color:rgb(70, 70, 70);
     color: white;
@@ -23,7 +22,6 @@ body {
     color: rgb(253, 47, 47);
     text-decoration: none;
 }
-
 .seitenLink{
     text-decoration: none;
     color: floralwhite;
@@ -35,13 +33,11 @@ body {
     text-decoration: none;
 }
 .icon:hover{
-    background-color:lightgray;
+    opacity: .5;
 }
-
 h1 {
     font-size: 40px;
 }
-
 h2{
     font-size: 28px;
 }
@@ -52,29 +48,26 @@ h2{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
     width: 60%;
 }
-
 #logoHFU {
     width: 40%;
 }
-
 #music {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
-
 #formulare{
     border: 2px;
 }
-
+.formular{
+    margin-bottom: 8px;
+}
 .video {
     width: 60%;
 }
-
 .container{
     margin-left: auto;
     margin-right: auto;
     width: 800px;
 }
-
 .link {
     text-decoration: none;
     color: darkorange;
