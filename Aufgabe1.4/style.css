@@ -35,6 +35,12 @@ body {
 .icon:hover{
     opacity: .5;
 }
+.move{
+    animation-name: einfliegen 3s;
+}
+@keyframes einfliegen {
+    from
+}
 h1 {
     font-size: 40px;
 }

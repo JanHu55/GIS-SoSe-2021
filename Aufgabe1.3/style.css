@@ -41,6 +41,9 @@ h1 {
 h2{
     font-size: 28px;
 }
+footer{
+    clear: both;
+}
 #oben{
     margin-top: 50px;
 }
@@ -75,4 +78,7 @@ h2{
 }
 footer{
     padding-top: 80px;
+}
+::placeholder{
+    color: white;
 }
