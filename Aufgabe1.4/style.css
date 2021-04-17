@@ -7,7 +7,7 @@ body {
     background-color:rgb(70, 70, 70);
     color: white;
     text-transform: uppercase;
-    position: fixed; right: 150px;
+    position: fixed; right: 20%;
     padding: 5px;
     top: 0;
     border-bottom-left-radius: 10px;
