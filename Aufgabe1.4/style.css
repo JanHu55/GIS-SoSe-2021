@@ -29,17 +29,13 @@ body {
 .icon{
     width: 100px;
     float: left;
+    position: relative;
     padding: 20px;
     text-decoration: none;
+    animation: reinFliegen 5s linear;
 }
 .icon:hover{
     opacity: .5;
-}
-.move{
-    animation-name: einfliegen 3s;
-}
-@keyframes einfliegen {
-    from
 }
 h1 {
     font-size: 40px;
@@ -47,38 +43,111 @@ h1 {
 h2{
     font-size: 28px;
 }
+footer{
+    clear: both;
+}
 #oben{
-    margin-top: 50px;
+    margin-top: 80px;
 }
 #portrait {
     width: 60%;
 }
 #logoHFU {
-    width: 40%;
+    width: 400px;
+    position: relative;
+    animation-name: reinFliegen;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: unset;
 }
-.formular{
+#button{
+    width: 100px;
+}
+#button:hover{
+    opacity: .6;
+}
+div input{
     margin-bottom: 8px;
     background-color: darkgray;
     color: white;
+}
+input+textarea{
+    background: darkgray;
+}
+input~p{
+    color: darkgray;
+    font-size: 10px;
+    width: 150px;
+}
+a[href="https://www.hs-furtwangen.de/"]:hover{
+    color: rgb(9, 121, 9);
 }
 .shadow{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 .video {
-    width: 60%;
+    width: 80%;
 }
 .container{
     margin-left: auto;
     margin-right: auto;
-    width: 800px;
+    width: 80%;
 }
 .absatz{
     padding-bottom: 10px;
 }
 .link {
     text-decoration: none;
+    color: darkgray;
+}
+.link:hover{
     color: darkorange;
 }
 footer{
     padding-top: 80px;
+}
+abbr{
+    text-decoration: none;
+}
+::placeholder{
+    color: white;
+}
+.formulare{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+}
+@keyframes reinFliegen{
+    from {left: 300px;}
+    to {left: 0px;}
+}
+@media only screen and (max-width: 1024px){
+    .sites{
+        position: fixed; left: 10%;
+        width: 285px;
+    }
+    .video{
+        width: 90%;
+    }
+    #logoHFU{
+        width: 300px;
+    }
+    #portrait{
+        width: 80%;
+    }
+    .icon{
+        width: 80px;
+    }
+}
+@media only screen and (max-width: 600px){
+    #logoHFU{
+        width: 250px;
+    }
+    .icon{
+        width: 50px;
+    }
+    .video{
+        width: 100%;
+    }
 }
